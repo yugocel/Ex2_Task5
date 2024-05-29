@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">Ex2_Task5</string>
+  <string-array name="list">
+    <item>1, "Todo 1", "Description 1", true, false, 1629914400000</item>
+    <item>2, "Todo 2", "Description 2", false, true, 1629914400000</item>
+    <item>3, "Todo 3", "Description 3", true, true, 1629914400000</item>
+  </string-array>
+</resources>

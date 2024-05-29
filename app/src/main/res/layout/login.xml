@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+      android:id="@+id/textView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:clickable="false"
+      android:singleLine="true"
+      android:textColor="#FF0000"
+      android:textSize="6pt" />
+    <EditText android:id="@+id/editTextUsername"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="Email"
+              android:imeOptions="actionNext"
+              android:maxLines="1"
+              android:inputType="textEmailAddress"/>
+
+    <EditText android:id="@+id/editTextPassword"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="Password"
+              android:imeOptions="actionDone"
+              android:maxLines="1"
+              android:maxLength="6"
+              android:inputType="numberPassword"/>
+    <TextView
+      android:id="@+id/textViewPw"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:clickable="false"
+      android:singleLine="true"
+      android:textColor="#FF0000"
+      android:textSize="6pt" />
+
+
+
+    <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"/>
+    <ProgressBar
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/pBar"
+      android:visibility="invisible"/>
+    <TextView
+      android:id="@+id/textViewAll"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:clickable="false"
+      android:singleLine="true"
+      android:textColor="#FF0000"
+      android:textSize="10pt" />
+</LinearLayout>
